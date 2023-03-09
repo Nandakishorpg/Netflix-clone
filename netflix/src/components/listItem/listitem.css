@@ -1,0 +1,23 @@
+.listItem{
+   min-width: 232px;
+    height: 160px;
+    background-color: rgb(241, 241, 241);
+    margin-right: 8px;
+    overflow: hidden;
+    color: white;
+}
+.listItem img{
+    transition: all .6s ease;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.listItem:hover{
+    /* width: 320px; */
+    height: 200px;
+}
+.listItem img:hover{
+   
+    height: 280px;
+}
